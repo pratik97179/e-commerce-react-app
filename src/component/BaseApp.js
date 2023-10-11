@@ -1,7 +1,11 @@
-import Header from "./Header";
+import Header from "./Header.js";
 
 const BaseApp = () => {
-    return <Header />;
+    return (
+        <div className="base-app-wrapper">
+            <Header />
+        </div>
+    );
 };
 
 export default BaseApp;
